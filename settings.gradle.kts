@@ -1,3 +1,3 @@
 rootProject.name = "MaterialSpark"
 
-include(":app")
+include(":app", ":base", ":resources", ":upgrades", ":evolution", ":destruction", ":altar")

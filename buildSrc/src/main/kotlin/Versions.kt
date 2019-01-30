@@ -33,7 +33,7 @@ object Versions {
 
     const val junit_junit: String = "4.12" 
 
-    const val org_jetbrains_kotlin: String = "1.3.20" 
+    const val org_jetbrains_kotlin: String = "1.3.20"
 
     const val robolectric: String = "4.1" 
 

@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MaterialSpark.iml" filepath="$PROJECT_DIR$/MaterialSpark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/altar/altar.iml" filepath="$PROJECT_DIR$/altar/altar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/buildSrc/buildSrc.iml" filepath="$PROJECT_DIR$/buildSrc/buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/destruction/destruction.iml" filepath="$PROJECT_DIR$/destruction/destruction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/evolution/evolution.iml" filepath="$PROJECT_DIR$/evolution/evolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upgrades/upgrades.iml" filepath="$PROJECT_DIR$/upgrades/upgrades.iml" />
     </modules>
   </component>
 </project>

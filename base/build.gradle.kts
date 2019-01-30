@@ -1,7 +1,7 @@
 import com.android.build.gradle.internal.dsl.TestOptions
 
 plugins {
-    id("com.android.application")
+    id("com.android.library")
     kotlin("android")
     kotlin("android.extensions")
 }
@@ -9,18 +9,9 @@ plugins {
 android {
     compileSdkVersion(28)
     defaultConfig {
-        applicationId = "io.pixeloutlaw.materialspark"
         minSdkVersion(15)
         targetSdkVersion(28)
-        versionCode = 1
-        versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    }
-    buildTypes {
-        getByName("release") {
-            isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
-        }
     }
     testOptions {
         unitTests(closureOf<TestOptions.UnitTestOptions> {
@@ -30,7 +21,11 @@ android {
 }
 
 dependencies {
-    implementation(project(":base"))
+    api(Libs.kotlin_stdlib_jdk7)
+    api(Libs.appcompat)
+    api(Libs.core_ktx)
+    api(Libs.constraintlayout)
+    api(Libs.material)
 
     testImplementation(Libs.junit_junit)
     testImplementation(Libs.robolectric)

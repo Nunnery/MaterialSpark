@@ -5,10 +5,10 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 // buildscript block replaced with buildSrc
 plugins {
     kotlin("jvm") // buildSrc provides kotlin-dsl which already pulls in kotlin plugin
-    id("de.fayard.buildSrcVersions") version "0.3.2"
-    id("com.diffplug.gradle.spotless") version "3.16.0"
-    id("pl.allegro.tech.build.axion-release") version "1.10.0"
-    id("com.gradle.build-scan") version "2.1"
+    id("de.fayard.buildSrcVersions") version Versions.de_fayard_buildsrcversions_gradle_plugin
+    id("com.diffplug.gradle.spotless") version Versions.com_diffplug_gradle_spotless_gradle_plugin
+    id("pl.allegro.tech.build.axion-release") version Versions.pl_allegro_tech_build_axion_release_gradle_plugin
+    id("com.gradle.build-scan") version Versions.com_gradle_build_scan_gradle_plugin
 }
 
 group = "io.pixeloutlaw.materialspark"

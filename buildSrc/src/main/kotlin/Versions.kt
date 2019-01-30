@@ -19,11 +19,11 @@ object Versions {
 
     const val androidx_test_rules: String = "1.1.1" 
 
-    const val aapt2: String = "3.5.0-alpha01-5013011" 
+    const val aapt2: String = "3.5.0-alpha02-5228738" 
 
-    const val lint_gradle: String = "26.5.0-alpha01" 
+    const val lint_gradle: String = "26.5.0-alpha02" 
 
-    const val com_diffplug_gradle_spotless_gradle_plugin: String = "3.16.0" 
+    const val com_diffplug_gradle_spotless_gradle_plugin: String = "3.17.0" 
 
     const val material: String = "1.0.0" 
 
@@ -33,7 +33,7 @@ object Versions {
 
     const val junit_junit: String = "4.12" 
 
-    const val org_jetbrains_kotlin: String = "1.3.11" 
+    const val org_jetbrains_kotlin: String = "1.3.20" 
 
     const val robolectric: String = "4.1" 
 
@@ -49,8 +49,8 @@ object Versions {
 
         const val currentVersion: String = "5.1.1"
 
-        const val nightlyVersion: String = "5.3-20190123000047+0000"
+        const val nightlyVersion: String = "5.3-20190130000104+0000"
 
-        const val releaseCandidate: String = ""
+        const val releaseCandidate: String = "5.2-rc-1"
     }
 }

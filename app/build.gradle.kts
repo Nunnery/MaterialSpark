@@ -31,6 +31,11 @@ android {
 
 dependencies {
     implementation(project(":base"))
+    implementation(project(":altar"))
+    implementation(project(":destruction"))
+    implementation(project(":evolution"))
+    implementation(project(":resources"))
+    implementation(project(":upgrades"))
 
     testImplementation(Libs.junit_junit)
     testImplementation(Libs.robolectric)

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Theme.MaterialSpark.DayNight" parent="Theme.MaterialSpark.Dark">
+    </style>
+    <style name="Theme.MaterialSpark.DayNight.NoActionBar" parent="Theme.MaterialSpark.Dark.NoActionBar">
+    </style>
+</resources>
